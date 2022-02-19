@@ -1,0 +1,17 @@
+style: "none" # "Stash" is not supported
+template: CHANGELOG.tpl.md
+info:
+  title: CHANGELOG
+  repository_url: https://stash.lapresse.ca/projects/TSV/repos/project_opensearch
+options:
+  header:
+    pattern: "^(.*)$"
+    pattern_maps:
+      - Subject
+  issues:
+    prefix:
+      - "RE-"
+      - "EXPL-"
+  jira:
+    info:
+      url: https://jira.nuglif.com
